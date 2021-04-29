@@ -129,6 +129,7 @@ section#about {
     overflow: hidden; /* will contain if #first is longer than #second */
 }
 #pic-2 {
+    padding-top: 20px;
     float:left;
     padding-right: 60px;
 }
@@ -141,11 +142,13 @@ section#about {
 }
 
 #gt {
+    padding-top: 30px;
     float: left;
     clear: left;
 }
 
 #pic-3 {
+    padding-top: 20px;
     float:left;
     padding-right: 60px;
 }
@@ -156,6 +159,54 @@ section#about {
     font-size: 1.5rem;
     text-align: left;
     padding: 10px;
+}
+
+#tools {
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 1rem;
+    margin-top: 20px;
+    float: right;
+    padding-right: 200px;
+}
+
+#tools ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+#tools ul li {
+    margin: 0 1.5rem;
+}
+
+#tools ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#tools-2 {
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 1rem;
+    margin-top: 20px;
+    float: right;
+    padding-right: 265px;
+}
+
+#tools-2 ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+#tools-2 ul li {
+    margin: 0 1.5rem;
+}
+
+#tools-2 ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 #resume {
@@ -190,15 +241,19 @@ section#about {
 
 section#experience {
     padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: lightgray;
-}
-
-section#projects {
+    height: 100vh;
     background-color: white;
 }
 
+section#projects {
+    padding-top: 50px;
+    height: 80vh;
+    background-color: skyblue;
+}
+
 section#publications {
+    padding-top: 50px;
+    height: 50vh;
     background-color: lightblue;
 }
 
@@ -235,4 +290,141 @@ section#about {
 
 .exp {
     font-size: 15px;
+}
+
+#tools ul li.tech {
+    border-radius: 10px;
+    padding: 10px;
+    background: chartreuse;
+}
+
+#tools ul li#site {
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 10px;
+    background: turquoise;
+}
+
+#tools-2 ul li.tech {
+    border-radius: 10px;
+    padding: 10px;
+    background: chartreuse;
+}
+
+#tools-2 ul li#site {
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 10px;
+    background: turquoise;
+}
+
+#wrapper-3 {
+    margin-top: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#project-1 {
+    padding: 5px;
+    border: 2px solid black;
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 22%;
+}
+
+#project-1 h1 {
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 1.25rem;
+}
+
+#project-2 {
+    padding: 5px;
+    border: 2px solid black;
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 22%;
+}
+
+#project-2 h1 {
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 1.25rem;
+}
+
+#project-3 {
+    padding: 5px;
+    border: 2px solid black;
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 22%;
+    height: 525px;
+}
+
+#project-3 h1 {
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 1.25rem;
+}
+
+.pro {
+    padding-top: 5px;
+    width: 95%;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.desc {
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.buttons {
+    padding-top: 10px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: teal;
+    outline: none;
+    border: none;
+    border-radius: 14px 12px 12px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+    transition: translateY(-5px);
+    box-shadow: 0 5px 5px #00000040;
+}
+
+#site-1 {
+    margin-right: 20px;
+}
+
+#pub {
+    font-weight: 300;
+    font-size: 20px;
+    width: 80%;
+    text-align: left;
+}
+
+#pub-1 {
+    margin: 50px 0px;
 }
