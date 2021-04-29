@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+section#intro {
+    background-color: white;
+    justify-content: center;
+}
+
+#intro .text-1 {
+    font-size: 1.5rem;
+}
+
+#intro .text-2 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+#intro .text-3 {
+    font-size: 2rem;
+}
+
+#intro .text-3 {
+    font-size: 2rem;
+}
+
+#intro .text-3 span{
+    color: aqua;
+    font-weight: 500;
+}
+
+section#about {
+    padding-top: 50px;
+    background-color: skyblue;
+    height: 60vh;
+    display: flex;
+}
+
+.profile {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#wrapper {
+    width: 1200px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#pic {
+    border-radius: 40px;
+    width: 300px;
+    float:left;
+    padding-right: 60px;
+}
+#info {
+    border-radius: 25px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 10px;
+}
+
+#wrapper-2 {
+    width: 800px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#pic-2 {
+    float:left;
+    padding-right: 60px;
+}
+#info-2 {
+    border-radius: 25px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 10px;
+}
+
+#gt {
+    float: left;
+    clear: left;
+}
+
+#pic-3 {
+    float:left;
+    padding-right: 60px;
+}
+
+#info-3 {
+    border-radius: 25px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 10px;
+}
+
+#resume {
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#resume ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+#resume ul li {
+    margin: 0 1.5rem;
+    padding: 0.5rem;
+}
+
+#resume ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#resume ul li a:hover {
+    color: skyblue;
+}
+
+section#experience {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+}
+
+section#projects {
+    background-color: white;
+}
+
+section#publications {
+    background-color: lightblue;
+}
+
+section#contact {
+    background-color: lightgray;
+}
+
+section#intro {
+    color: white;
+    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
+  }
+
+section#about {
+    color: white;
+    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.company {
+    color: rgb(17, 161, 218);
+    font-size: 20px;
+}
+.role {
+    color: green;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.exp {
+    font-size: 15px;
+}
