@@ -242,23 +242,19 @@ section#about {
 section#experience {
     padding-top: 50px;
     height: 100vh;
-    background-color: white;
+    background-color: #feffff;
 }
 
 section#projects {
     padding-top: 50px;
     height: 80vh;
-    background-color: skyblue;
+    background-color: #def2f1;
 }
 
 section#publications {
     padding-top: 50px;
-    height: 50vh;
-    background-color: lightblue;
-}
-
-section#contact {
-    background-color: lightgray;
+    height: 30vh;
+    background-color: #feffff;
 }
 
 section#intro {
@@ -267,9 +263,16 @@ section#intro {
   }
 
 section#about {
-    color: white;
-    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;
+    color: black;
+    background: #def2f1; /*url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;*/
 }
+
+section#education {
+    padding-top: 50px;
+    color: black;
+    background: #def2f1;
+}
+
 .logo {
     width: 200px;
     height: 100px;
@@ -427,4 +430,35 @@ section#about {
 
 #pub-1 {
     margin: 50px 0px;
+}
+
+#paper {
+    margin: 10px;
+    margin-left: 27px;
+}
+
+.wrapper-4 {
+    width: 800px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+.logo-2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.course {
+    border-radius: 25px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 10px;
+}
+
+.exp-2 {
+    font-size: 15px;
+    margin-top: 25px;
 }
