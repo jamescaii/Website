@@ -168,7 +168,7 @@ section#about {
     font-size: 1rem;
     margin-top: 20px;
     float: right;
-    padding-right: 200px;
+    padding-right: 62px;
 }
 
 #tools ul {
@@ -192,7 +192,7 @@ section#about {
     font-size: 1rem;
     margin-top: 20px;
     float: right;
-    padding-right: 265px;
+    padding-right: 170px;
 }
 
 #tools-2 ul {
@@ -393,6 +393,14 @@ section#copyright {
 .pro {
     padding-top: 5px;
     width: 95%;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#medicount {
+    padding-top: 5px;
+    width: 77%;
     border: none;
     display: block;
     margin: 0 auto;
