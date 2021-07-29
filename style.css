@@ -98,7 +98,7 @@ section#intro {
 section#about {
     padding-top: 50px;
     background-color: skyblue;
-    height: 60vh;
+    height: 600px;
     display: flex;
 }
 
@@ -242,19 +242,19 @@ section#about {
 
 section#experience {
     padding-top: 50px;
-    height: 100vh;
+    height: 1000px;
     background-color: #feffff;
 }
 
 section#projects {
     padding-top: 50px;
-    height: 80vh;
+    height: 800px;
     background-color: #def2f1;
 }
 
 section#publications {
     padding-top: 50px;
-    height: 30vh;
+    height: 300px;
     background-color: #feffff;
 }
 
@@ -269,7 +269,7 @@ section#about {
 }
 
 section#education {
-    height: 83vh;
+    height: 830px;
     padding-top: 50px;
     color: black;
     background: #def2f1;
